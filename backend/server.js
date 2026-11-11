@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const connectDB = require ('./config/db')
-const healthRoutes = require('./routes/healthRouthes');
+const healthRoutes = require('./routes/healthRoutes');
 
 connectDB()
 
